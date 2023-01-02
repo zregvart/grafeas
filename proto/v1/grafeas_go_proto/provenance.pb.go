@@ -629,7 +629,6 @@ type SourceContext struct {
 	// A SourceContext can refer any one of the following types of repositories.
 	//
 	// Types that are assignable to Context:
-	//
 	//	*SourceContext_CloudRepo
 	//	*SourceContext_Gerrit
 	//	*SourceContext_Git
@@ -801,7 +800,6 @@ type CloudRepoSourceContext struct {
 	// its alias.
 	//
 	// Types that are assignable to Revision:
-	//
 	//	*CloudRepoSourceContext_RevisionId
 	//	*CloudRepoSourceContext_AliasContext
 	Revision isCloudRepoSourceContext_Revision `protobuf_oneof:"revision"`
@@ -901,7 +899,6 @@ type GerritSourceContext struct {
 	// or its alias.
 	//
 	// Types that are assignable to Revision:
-	//
 	//	*GerritSourceContext_RevisionId
 	//	*GerritSourceContext_AliasContext
 	Revision isGerritSourceContext_Revision `protobuf_oneof:"revision"`
@@ -1061,7 +1058,6 @@ type RepoId struct {
 	// combination, or its globally unique identifier.
 	//
 	// Types that are assignable to Id:
-	//
 	//	*RepoId_ProjectRepoId
 	//	*RepoId_Uid
 	Id isRepoId_Id `protobuf_oneof:"id"`

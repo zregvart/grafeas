@@ -77,7 +77,6 @@ type Occurrence struct {
 	// resource.
 	//
 	// Types that are assignable to Details:
-	//
 	//	*Occurrence_Vulnerability
 	//	*Occurrence_Build
 	//	*Occurrence_DerivedImage
@@ -473,7 +472,6 @@ type Note struct {
 	// Required. Immutable. The type of analysis this note represents.
 	//
 	// Types that are assignable to Type:
-	//
 	//	*Note_Vulnerability
 	//	*Note_Build
 	//	*Note_BaseImage
